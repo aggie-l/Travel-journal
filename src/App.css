@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+#root {
+  margin: 0 auto;
+}
+
+* {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar {
+  height: 55px;
+  width: 100%;
+  background-color: #F55A5A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+
+.nav--img {
+  width: 24px;
+  height: 24px;
+  fill: #FFF;
+}
+
+.nav--title {
+  color: #FFF;
+  font-size: 14.461px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.6px;
+}
+
+.cards-list {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  padding: 45px 40px;
+}
+
+.card {
+  display: flex;
+  gap: 19px;
+  border-bottom: 2px solid #F5F5F5;
+  padding-bottom: 18px;
+  padding-top: 18px;
+}
+
+.card--img {
+  width: 155px;
+  height: 192px;
+  border-radius: 5px;
+}
+
+.card--info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 8px;
+}
+
+.card--info-top {
+  display: flex;
+  align-items: center;
+}
+
+.locate--img {
+  width: 7px;
+  height: 9.545px;
+  flex-shrink: 0;
+  fill: #F55A5A;
+  margin-right: 4px;
+}
+
+.location {
+  color: #2B283A;
+  font-size: 10.24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.741px;
+  margin-right: 12px;
+}
+
+.locate--map {
+  color: #918E9B;
+  font-size: 10.24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.place--title {
+  color: #2B283A;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.travel--dates {
+  color: #2B283A;
+  font-size: 10.24px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.place--description {
+  color: #2B283A;
+  font-size: 10.24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
